@@ -1,21 +1,38 @@
 {
-    "name": "Code Stitch Web Designs",
-    "email": "help@codestitch.app",
-    "phoneForTel": "555-123-4567",
-    "phoneFormatted": "(555) 123-4567",
+    "name": "Bodas Construction",
+    "email": "info@bodasconstruction.com",
+    "phoneForTel": "650-479-1500",
+    "phoneFormatted": "(650) 479-1500",
     "address": {
-        "lineOne": "First Address Line",
-        "lineTwo": "Second Address Line",
-        "city": "Denver",
-        "state": "CO",
-        "zip": "80206",
-        "mapLink": "https://goo.gl/maps/UAQn4vuGDiwv7DV39"
+        "lineOne": "119 Stanford Avenue, Suite 2",
+        "lineTwo": "",
+        "city": "Half Moon Bay",
+        "state": "CA",
+        "zip": "94019",
+        "mapLink": "https://maps.app.goo.gl/ukHn1w1KKnF9neWDA"
     },
+    "license": "951868",
     "social": {
-        "facebook": "https://www.facebook.com/",
-        "twitter": "https://twitter.com/",
-        "instagram": "https://www.instagram.com/",
-        "youtube": "https://www.youtube.com/"
+        "yelp": "",
+        "linkedin": "",
+        "youtube": ""
     },
-    "domain": "https://www.codestitch.app"
+    "contacts": [
+        {
+            "name": "Bryan Bodas",
+            "role": "Owner",
+            "email": "bbodas@bodasconstruction.com"
+        },
+        {
+            "name": "Carolyn Jacobs",
+            "role": "Office Administrator",
+            "email": "carolyn@bodasconstruction.com"
+        },
+        {
+            "name": "Salvador Maldonado",
+            "role": "Client Manager",
+            "email": "salvador@bodasconstruction.com"
+        }
+    ],
+    "domain": "https://www.bodasconstruction.com"
 }

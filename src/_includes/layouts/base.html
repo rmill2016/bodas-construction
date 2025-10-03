@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
-        {#
-        Created with help from the below repo, outlining all the possible tags that could belong in a <head>.
-        View to explore more tags that may be useful, depending on the type of website being built
-        https://github.com/joshbuchea/HEAD
-        #}
-
-        {# CS-TODO: Update the _data/client.json file to automatically generate the correct <head> tags for you #}
-
         <!-- UTF character encoding means all characters under UTF-8, including emojis, render correctly -->
         <meta charset="UTF-8">
 
@@ -27,7 +19,7 @@
         <meta property="og:description" content="{{ description }}">
         <meta property="og:url" content="{{ client.domain }}{{ page.url }}">
         <meta property="og:type" content="website">
-        <meta property="og:image" content="https://codestitch.app/frontend/images/logo.png">
+        <meta property="og:image" content="https://bodasconstruction.com/templates/yootheme/cache/73/logo-2-7367dee8.webp">
         <meta property="og:site_name" content="{{ client.name }}">
         <meta property="og:locale" content="en_US">
         <meta property="og:image:width" content="1421">
@@ -36,12 +28,13 @@
         <!-- Helps prevent duplicate content issues -->
         <link rel="canonical" href="{{ client.domain }}{{ page.url }}">
 
-        <!-- Sitewide Stylesheets -->
-        <link rel="stylesheet" href="/assets/css/root.css">
-        <link rel="stylesheet" href="/assets/css/dark.css">
+    <!-- Sitewide Stylesheets -->
+    <link rel="stylesheet" href="/assets/styles/root.css">
+    <link rel="stylesheet" href="/assets/styles/header.css">
+    <link rel="stylesheet" href="/assets/styles/footer.css">
+    <link rel="stylesheet" href="/assets/styles/local.css">
 
         <!-- Sitewide Scripts -->
-        <script src="/assets/js/dark.js" defer></script>
         <script src="/assets/js/nav.js" defer></script>
 
         <!-- Use a head block in any layout extending from base.html to include page-specific <head> tags. It will be included here -->

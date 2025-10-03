@@ -1,3 +1,4 @@
+
 // Plugin Imports
 const pluginDirectoryOutput = require("@11ty/eleventy-plugin-directory-output");
 const pluginEleventyNavigation = require("@11ty/eleventy-navigation");
@@ -17,12 +18,18 @@ module.exports = function (eleventyConfig) {
     // https://www.11ty.dev/docs/plugins/navigation/
     eleventyConfig.addPlugin(pluginEleventyNavigation);
 
+    // Javascript frontmatter
+    eleventyConfig.setFrontMatterParsingOptions({
+
+
+    });
+
     /**
      *  PASSTHROUGH'S
      *      Copy/paste non-template files straight to /public, without any interference from the eleventy engine
      *      https://www.11ty.dev/docs/copy/
      */
-    eleventyConfig.addPassthroughCopy("./src/assets/css");
+    eleventyConfig.addPassthroughCopy("./src/assets/styles");
     eleventyConfig.addPassthroughCopy("./src/assets/favicons");
     eleventyConfig.addPassthroughCopy("./src/assets/fonts");
     eleventyConfig.addPassthroughCopy("./src/assets/images");
