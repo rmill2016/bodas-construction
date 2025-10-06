@@ -1,0 +1,615 @@
+/*-- -------------------------- -->
+<---           Hero             -->
+<--- -------------------------- -*/
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #hero-82 {
+    /* Centers button */
+    text-align: center;
+    /* 144px - 300px - leaving extra space for the navigation */
+    padding: clamp(9rem, 25.95vw, 18.75rem) 1rem 0;
+    /* 130px - 200px */
+    padding-bottom: clamp(8.125rem, 12.5vw, 25em);
+    position: relative;
+    z-index: 1;
+  }
+  #hero-82 .cs-background {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+  }
+  #hero-82 .cs-background:before {
+    /* Overlay */
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.7;
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    /* prevents the cursor from interacting with it */
+    pointer-events: none;
+  }
+  #hero-82 .cs-background img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  #hero-82 .cs-container {
+    width: 100%;
+    max-width: 67.5rem;
+    margin: auto;
+  }
+  #hero-82 .cs-title {
+    /* 39px - 61px */
+    font-size: clamp(2.4375rem, 6.4vw, 3.8125rem);
+    font-weight: 700;
+    line-height: 1.2em;
+    text-align: center;
+    max-width: 51.8125rem;
+    /* 16px - 24px */
+    margin: 0 auto clamp(1rem, 4vw, 1.5rem);
+    color: #fff;
+    position: relative;
+  }
+  #hero-82 .cs-title:after {
+    /* Divider Line */
+    content: "";
+    width: 6.25rem;
+    height: 0.5rem;
+    /* 16px - 24px */
+    margin: clamp(1rem, 4vw, 1.5rem) auto clamp(1rem, 4vw, 1.5rem);
+    background: var(--primary);
+    opacity: 1;
+    position: relative;
+    display: block;
+  }
+  #hero-82 .cs-text {
+    /* 16px - 25px */
+    font-size: clamp(1rem, 1.95vw, 1.5625rem);
+    line-height: 1.5em;
+    text-align: center;
+    width: 100%;
+    /* 464px - 800px */
+    max-width: clamp(29rem, 60vw, 50rem);
+    margin: 0 auto;
+    /* 40px - 48px */
+    margin-bottom: clamp(2.5rem, 4vw, 3rem);
+    color: #fff;
+  }
+  #hero-82 .cs-button-solid {
+    font-size: 1rem;
+    line-height: 3.5rem;
+    text-decoration: none;
+    font-weight: 700;
+    margin: auto;
+    color: #fff;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+  }
+  #hero-82 .cs-button-solid:before {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width 0.3s;
+  }
+  #hero-82 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+}
+/*-- -------------------------- -->
+<---          Gallery           -->
+<--- -------------------------- -*/
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #gallery-2281 {
+    padding: var(--sectionPadding);
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  }
+  #gallery-2281:before {
+    content: '';
+    width: 100%;
+    height: 22.5rem;
+    margin-right: 3.4375rem;
+    background: var(--primary);
+    opacity: 0.05;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  #gallery-2281 .cs-container {
+    width: 100%;
+    max-width: 80rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 6vw, 4rem);
+    position: relative;
+    z-index: 1;
+  }
+  #gallery-2281 .cs-content {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  #gallery-2281 .cs-title {
+    margin: 0;
+  }
+  #gallery-2281 .cs-button-group {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    /* 20px - 40px */
+    column-gap: clamp(1.25rem, 3.4vw, 2.5rem);
+  }
+  #gallery-2281 .cs-button {
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.5em;
+    padding: 0;
+    color: var(--bodyTextColor);
+    background-color: transparent;
+    border: none;
+    position: relative;
+    z-index: 1;
+    transition: color 0.3s;
+  }
+  #gallery-2281 .cs-button:before {
+    content: '';
+    width: 100%;
+    height: 4px;
+    background: var(--primary);
+    opacity: 0;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+    transition: opacity 0.3s, bottom 0.3s, transform 0.3s;
+  }
+  #gallery-2281 .cs-button:hover {
+    color: var(--primary);
+    cursor: pointer;
+  }
+  #gallery-2281 .cs-button:hover:before {
+    opacity: 1;
+    bottom: -0.625rem;
+  }
+  #gallery-2281 .cs-button.cs-active {
+    color: var(--primary);
+  }
+  #gallery-2281 .cs-button.cs-active:before {
+    opacity: 1;
+    bottom: -0.625rem;
+  }
+  #gallery-2281 .cs-gallery-wrapper {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+  }
+  #gallery-2281 .cs-gallery {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    /* 16px - 20px */
+    gap: clamp(1rem, 1.5vw, 1.25rem);
+    position: relative;
+    perspective: 700px;
+    transform-style: preserve-3d;
+    transition: transform 0.7s, opacity 0.3s, visibility 0.5s, top 0.3s, left 0.3s;
+    /* makes the transfrom scaling orgin the top left corner, dictates the direction by which the scale transforms animate towards */
+    transform-origin: left top;
+  }
+  #gallery-2281 .cs-gallery.cs-hidden {
+    /* by using visibility:hidden instead of display:none, we can see the animations from the opacity and transforms, display:none won't render animations. */
+    visibility: hidden;
+    /* prevents the mouse from interacting with it */
+    pointer-events: none;
+    /* hidden galleries have a 0 opacity, and we animate the opacity to 1 when they become active */
+    opacity: 0;
+    /* this top and left value help control the animation, by setting it to position absolute and left 0, the gallery won't fly off screen to the left, it will stop its position to be at the left edge of the .cs-container (left: 0). Same for the top:0 value, the gallery won't go past that posiiton when it animates */
+    top: 0;
+    left: 0;
+    position: absolute;
+    /* prevents the hidden galleries from overflowing the section, and makes a nice animations to transition to and from */
+    transform: scaleY(0) scaleX(0);
+  }
+  #gallery-2281 .cs-gallery.cs-hidden .cs-image {
+    /* when gallery is hidden, add these styles to the cs-image to animate from when cs-hidden is removed from the .cs-gallery */
+    transform: translateY(2.1875rem) rotateX(90deg);
+    opacity: 0;
+  }
+  #gallery-2281 .cs-image {
+    /* 300px - 420px */
+    min-height: clamp(18.75rem, 40vw, 26.25rem);
+    /* clips the image corners */
+    overflow: hidden;
+    display: block;
+    grid-column: span 12;
+    position: relative;
+    /* when .cs-hidden is removed from the .cs-gallery, reset these values and animate between their hidden styles */
+    transform: translateY(0rem) rotateX(0);
+    opacity: 1;
+    transition: opacity 0.6s, transform 0.6s;
+  }
+  #gallery-2281 .cs-image:nth-of-type(1) {
+    /* the transition delays change at desktop */
+    /* these delays stagger the reveal of each image so they all go one after the other and not all at once */
+    transition-delay: 0.1s;
+  }
+  #gallery-2281 .cs-image:nth-of-type(2) {
+    transition-delay: 0.2s;
+  }
+  #gallery-2281 .cs-image:nth-of-type(3) {
+    transition-delay: 0.3s;
+  }
+  #gallery-2281 .cs-image:nth-of-type(4) {
+    transition-delay: 0.4s;
+  }
+  #gallery-2281 .cs-image:nth-of-type(5) {
+    transition-delay: 0.5s;
+  }
+  #gallery-2281 .cs-image:nth-of-type(6) {
+    transition-delay: 0.6s;
+  }
+  #gallery-2281 .cs-image:nth-of-type(7) {
+    transition-delay: 0.7s;
+  }
+  #gallery-2281 .cs-image:nth-of-type(8) {
+    transition-delay: 0.8s;
+  }
+  #gallery-2281 .cs-picture {
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* makes it act like a background image */
+    object-fit: cover;
+  }
+  #gallery-2281 .cs-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* makes it act like a background image */
+    object-fit: cover;
+    transition: transform 0.65s, opacity 0.3s;
+  }
+  #gallery-2281 .cs-info {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    bottom: clamp(1rem, 2vw, 1.5rem);
+    left: 0;
+    z-index: 10;
+  }
+  #gallery-2281 .cs-tag {
+    /* 13px - 16px */
+    font-size: clamp(0.8125rem, 2vw, 1rem);
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0.5rem 1.25rem;
+    color: var(--bodyTextColorWhite);
+    background-color: var(--primary);
+  }
+  #gallery-2281 .cs-project {
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0.75rem 1rem;
+    color: var(--headerColor);
+    background-color: #fff;
+  }
+}
+/* Inbetween - 600px */
+@media only screen and (min-width: 37.5rem) {
+  #gallery-2281 .cs-image {
+    grid-column: span 6;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #gallery-2281:before {
+    width: 100vw;
+    /* 395px - 445px */
+    height: clamp(24.6875rem, 30vw, 30.625rem);
+    left: auto;
+    right: 50%;
+  }
+  #gallery-2281 .cs-content {
+    text-align: left;
+    align-items: flex-start;
+  }
+  #gallery-2281 .cs-button-group {
+    border-bottom: 1px solid #E7E7E8;
+  }
+  #gallery-2281 .cs-button {
+    padding-bottom: 1.25rem;
+  }
+  #gallery-2281 .cs-button:hover:before {
+    transform: scale(1);
+    bottom: -1px;
+  }
+  #gallery-2281 .cs-button.cs-active:before {
+    bottom: -1px;
+    transform: scale(1);
+  }
+  #gallery-2281 .cs-button:before {
+    transform: scale(0);
+    transition: transform 0.3s;
+  }
+  #gallery-2281 .cs-image {
+    grid-column: span 4;
+  }
+}
+/* Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #gallery-2281 .cs-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 4rem;
+  }
+  #gallery-2281 .cs-image:hover .cs-tag,
+  #gallery-2281 .cs-image:hover .cs-project {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  #gallery-2281 .cs-image:hover .cs-picture img {
+    opacity: 0.2;
+    transform: scale(1.3);
+  }
+  #gallery-2281 .cs-tag {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out, opacity 0.3s;
+  }
+  #gallery-2281 .cs-project {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: transform 0.4s ease-out, opacity 0.3s;
+    transition-delay: 0.1s;
+  }
+}
+/*-- -------------------------- -->
+<---        Side By Side        -->
+<--- -------------------------- -*/
+/* Mobile - 360px */
+@media only screen and (min-width: 0rem) {
+  #sbs-2295 {
+    padding: var(--sectionPadding);
+    background-color: #fefcf4;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  }
+  #sbs-2295 .cs-container {
+    width: 100%;
+    /* changes to 1280px at tablet */
+    max-width: 44rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 48px - 64px */
+    gap: clamp(3rem, 4vw, 4rem);
+  }
+  #sbs-2295 .cs-image-group {
+    /* scales the whole section down and ties the font size to the vw and stops at 75% of the vale of 1em, changes at desktop */
+    font-size: min(1.98vw, .826rem);
+    /* everything inside this box is in ems so we can scale it all down proportionally with a font size */
+    width: 46.125em;
+    height: 36.125em;
+    order: -1;
+    position: relative;
+    z-index: 1;
+    /* prevents flexbox from squishing it */
+    flex: none;
+  }
+  #sbs-2295 .cs-picture {
+    width: 100%;
+    height: 100%;
+    border: 1em solid var(--bodyTextColorWhite);
+    display: block;
+  }
+  #sbs-2295 .cs-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+  }
+  #sbs-2295 .cs-picture-wrapper1 {
+    width: 25.75em;
+    height: 28.5625em;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #sbs-2295 .cs-picture-wrapper2 {
+    width: 25.8125em;
+    height: 29.625em;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  #sbs-2295 .cs-tag {
+    /* 14px - 24px */
+    font-size: clamp(0.875rem, 1.4vw, 1.5rem);
+    font-weight: 700;
+    line-height: 1.2em;
+    text-align: center;
+    color: var(--headerColor);
+  }
+  #sbs-2295 .cs-arrow {
+    width: 9.25em;
+    height: 3.375em;
+    position: absolute;
+    top: 15.125em;
+    left: 15.9375em;
+    transform: rotate(30deg);
+  }
+  #sbs-2295 .cs-content {
+    /* set text align to center if content needs to be centrally aligned */
+    text-align: left;
+    width: 100%;
+    max-width: 36.625rem;
+    display: flex;
+    flex-direction: column;
+    /* aligns content to the left, set to center to centrally align */
+    align-items: flex-start;
+  }
+  #sbs-2295 .cs-title {
+    max-width: 30ch;
+  }
+  #sbs-2295 .cs-text {
+    margin-bottom: 1rem;
+  }
+  #sbs-2295 .cs-text:last-of-type {
+    margin-bottom: 1.5rem;
+  }
+  #sbs-2295 .cs-button-solid {
+    font-size: 1rem;
+    font-weight: 700;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-align: center;
+    text-decoration: none;
+    min-width: 9.375rem;
+    margin: 0;
+    padding: 0 1.5rem;
+    background-color: var(--primary);
+    color: var(--headerColor);
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+  }
+  #sbs-2295 .cs-button-solid:before {
+    content: "";
+    width: 0%;
+    height: 100%;
+    background: #000;
+    opacity: 1;
+    border-radius: 0.25rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: width 0.3s;
+  }
+  #sbs-2295 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+  #sbs-2295 .cs-h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5em;
+    margin: 0;
+    color: var(--headerColor);
+  }
+  #sbs-2295 .cs-ul {
+    margin: 0.75rem 0 2rem;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  #sbs-2295 .cs-li {
+    font-size: 1rem;
+    line-height: 1.5em;
+    list-style: none;
+    /* 20px - 24px */
+    padding-left: clamp(1.25rem, 3vw, 1.5rem);
+    color: var(--bodyTextColor);
+    position: relative;
+  }
+  #sbs-2295 .cs-li strong {
+    color: #1a1a1a;
+  }
+  #sbs-2295 .cs-li::before {
+    content: "";
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-top: 0.5rem;
+    background-color: var(--secondary);
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(45deg);
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48rem) {
+  #sbs-2295 .cs-container {
+    max-width: 80rem;
+  }
+  #sbs-2295 .cs-image-group {
+    order: initial;
+  }
+}
+/* Desktop - 1024px */
+@media only screen and (min-width: 64rem) {
+  #sbs-2295 .cs-container {
+    flex-direction: row;
+    align-items: stretch;
+  }
+  #sbs-2295 .cs-image-group {
+    font-size: min(1.03vw, 1rem);
+    height: auto;
+  }
+  #sbs-2295 .cs-picture-wrapper1 {
+    height: auto;
+    bottom: 7.5625em;
+  }
+  #sbs-2295 .cs-picture-wrapper2 {
+    height: auto;
+    top: 6.5em;
+  }
+}

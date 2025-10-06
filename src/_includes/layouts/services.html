@@ -1,0 +1,89 @@
+---
+permalink: '/services/{{ title | slug }}/'
+---
+{% extends "layouts/base.html" %}
+
+{% block head %}
+<link rel="stylesheet" href="/assets/styles/services.css" />
+{% endblock %}
+
+{% block body %}
+
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero-2334">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h1 class="cs-title">{{ title }}</h1>
+            <p class="cs-text">
+                {{ description }}
+            </p>
+            <a href="" class="cs-button-solid">
+                Get Started Today
+            </a>
+            <div class="cs-overlay">
+                <img class="cs-graphic" aria-hidden="true" decoding="async"
+                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/slashes.svg" alt="stripes graphic"
+                    width="1290" height="684">
+            </div>
+        </div>
+        <!--To make your own background crops of people use https://www.remove.bg/-->
+        <picture class="cs-picture">
+            <source media="(max-width: 600px)"
+                srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/construction-man2.png">
+            <source media="(min-width: 601px)"
+                srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/construction-man2.png">
+            <img aria-hidden="true" decoding="async"
+                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/construction-man2.png"
+                alt="construction worker" width="581" height="662">
+        </picture>
+    </div>
+
+</section>
+
+<section id="content-page-1399">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <div class="cs-flex">
+                <picture class="cs-background">
+                    <source media="(max-width: 600px)" srcset="{{ image_group.picture.mobile }}">
+                    <source media="(min-width: 601px)" srcset="{{ image_group.picture.desktop }}">
+                    <img loading="lazy" decoding="async" src="{{ image_group.picture.desktop }}" alt="{{ title }}"
+                        width="542" height="728">
+                </picture>
+
+                <div class="cs-box">
+                    <img class="cs-box-icon" loading="lazy" decoding="async" src="{{ image_group.box_icon }}" alt=""
+                        width="60" height="60">
+                    <span class="cs-desc">{{ image_group.box_text }}</span>
+                </div>
+            </div>
+
+            <ul class="cs-card-group">
+                {% for f in features %}
+                <li class="cs-item">
+                    <h3 class="cs-h3">
+                        <img class="cs-h3-icon" aria-hidden="true" loading="lazy" decoding="async" src="{{ f.icon }}"
+                            alt="" width="32" height="32">
+                        {{ f.title }}
+                    </h3>
+                    <p class="cs-item-text">{{ f.text }}</p>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="cs-content">
+            <h1 class="cs-title">{{ title }}</h1>
+            <h2>{{ description }}</h2>
+
+            {{ content | safe }}
+        </div>
+    </div>
+    <div class="cs-bubbles" aria-hidden="true"></div>
+</section>
+
+
+{% endblock %}
