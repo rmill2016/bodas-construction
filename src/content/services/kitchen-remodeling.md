@@ -12,26 +12,26 @@ hero:
   cta_url: "/contact/"
   graphic: "/assets/svgs/slashes.svg"
   picture:
-    mobile: "/assets/images/bodas-m-1.webp"
-    desktop: "/assets/images/bodas-1.webp"
+    mobile: "/assets/images/bodas-image-m-2.webp"
+    desktop: "/assets/images/bodas-image-2.webp"
   background:
-    mobile: "/assets/images/bodas-m-2.webp"
-    desktop: "/assets/images/bodas-2.webp"
+    mobile: "/assets/images/bodas-image-m-3.webp"
+    desktop: "/assets/images/bodas-image-3.webp"
 
 image_group:
   picture:
-    mobile: "/assets/images/bodas-m-3.webp"
-    desktop: "/assets/images/bodas-3.webp"
-  box_icon: "/assets/icons/gear-white.svg"
+    mobile: "/assets/images/bodas-image-m-3.webp"
+    desktop: "/assets/images/bodas-image-3.webp"
+  box_icon: "/assets/svgs/gear.svg"
   box_text: "We’ve Over 26 Years of Experience"
 
 features:
   - title: "Design + Build"
     text: "Collaborative design services focused on function and lasting value."
-    icon: "/assets/icons/trophy.svg"
+    icon: "/assets/svgs/trophy.svg"
   - title: "Permits + Compliance"
     text: "We handle permitting and building code compliance from start to finish."
-    icon: "/assets/icons/circle-check.svg"
+    icon: "/assets/svgs/circle-check.svg"
 
 seo:
   title: "Kitchen Remodeling — Bodas Construction"
