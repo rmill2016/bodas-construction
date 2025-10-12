@@ -3,7 +3,6 @@ title: "Kitchen Remodeling"
 description: "Full-service kitchen remodeling in Half Moon Bay and the Bay Area — thoughtful design, quality craftsmanship, and worry-free project management."
 layout: layouts/services.html
 
-# Optional template variables that the services layout can consume
 hero:
   heading: "Kitchen Remodeling"
   subheading: "Transform Your Kitchen — Designed for Living"
@@ -79,8 +78,6 @@ We transform kitchens into functional, beautiful spaces that reflect how you liv
 - Quick refresh: cabinetry paint, new hardware, updated lighting
 - Mid-range: new cabinets, appliances, countertops, flooring
 - Full remodel: layout changes, structural work, new systems
-
-If you want, we can provide sample specifications for each tier and a realistic timeline tailored to your home.
 
 ### Ready to start?
 

@@ -150,7 +150,7 @@
     /* 427px - 581px */
     max-width: clamp(26.6875rem, 50vw, 36.3125rem);
     height: auto;
-    display: flex;
+    display: none;
     align-items: flex-end;
     position: relative;
     z-index: 7;
@@ -263,10 +263,10 @@
   }
   #hero-2325 .cs-picture {
     width: 45%;
-    /* same value as the padding, but opposite */
-    bottom: calc(clamp(9.25rem, 20vw, 19.9375rem)*-1);
+    bottom: 20rem;
     /* 32px - 80px */
     right: 1rem;
+    display: flex;
   }
   #hero-2325 .cs-background2 {
     width: 32.8125vw;

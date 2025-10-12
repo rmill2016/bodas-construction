@@ -1,49 +1,49 @@
 ---
 title: "House Renovations"
-description: "Complete house renovation services in Half Moon Bay and the Bay Area — whole-home remodels, interior updates, and structural improvements handled start to finish."
+description: "Whole-house renovations and renovation packages — modernize systems, update layouts, and refresh finishes with minimal disruption."
 layout: layouts/services.html
 
 hero:
   heading: "House Renovations"
-  subheading: "Revitalize Your Entire Home"
-  text: "From single-room refreshes to full-scale renovations, we transform homes with thoughtful planning and skilled execution. Our team manages demolition, structural work, systems upgrades, and finish carpentry to deliver spaces that work better and look timeless."
+  subheading: "Revitalize Your Home — Systems, Layouts, and Finishes"
+  text: "From targeted remodels to whole-house renovations, we plan phased work to keep you living comfortably while upgrades progress."
   cta_text: "Request an Estimate"
   cta_url: "/contact/"
   graphic: "/assets/svgs/slashes.svg"
   picture:
-    mobile: "/assets/images/renovation-m-1.webp"
-    desktop: "/assets/images/renovation-1.webp"
+    mobile: "/assets/images/bodas-image-m-10.webp"
+    desktop: "/assets/images/bodas-image-10.webp"
   background:
-    mobile: "/assets/images/renovation-m-2.webp"
-    desktop: "/assets/images/renovation-2.webp"
+    mobile: "/assets/images/bodas-image-m-11.webp"
+    desktop: "/assets/images/bodas-image-11.webp"
 
 image_group:
   picture:
-    mobile: "/assets/images/renovation-m-3.webp"
-    desktop: "/assets/images/renovation-3.webp"
-  box_icon: "/assets/icons/gear-white.svg"
-  box_text: "We've Over 26 Years of Experience"
+    mobile: "/assets/images/bodas-image-m-11.webp"
+    desktop: "/assets/images/bodas-image-11.webp"
+  box_icon: "/assets/svgs/gear.svg"
+  box_text: "Planning, Systems, & Finish Work"
 
 features:
-  - title: "Comprehensive Planning"
-    text: "Detailed project scopes with phasing options to fit your budget and timeline."
-    icon: "/assets/icons/trophy.svg"
-  - title: "Coordinated Trades"
-    text: "We manage all subcontractors, inspections, and material deliveries."
-    icon: "/assets/icons/circle-check.svg"
+  - title: "Systems Upgrades"
+    text: "Electrical, plumbing, and HVAC upgrades for safety and efficiency."
+    icon: "/assets/svgs/trophy.svg"
+  - title: "Interior Remodels"
+    text: "Kitchen and bath coordination, finishes, and whole-home aesthetic updates."
+    icon: "/assets/svgs/circle-check.svg"
 
 seo:
   title: "House Renovations — Bodas Construction"
-  description: "Professional home renovation services in the Bay Area — interior remodels, structural upgrades, and complete home transformations by licensed contractor #951868."
+  description: "Comprehensive house renovation services in the Bay Area — system upgrades, layout rework, and finish modernization."
 ---
 
-## Transform your home with comprehensive renovation services
+## Renovations with thoughtful sequencing
 
-House renovations require vision, precision, and coordination. Whether updating an older home's systems and finishes or reconfiguring layouts for modern living, we handle every aspect — from initial design concepts through final punch list and warranty.
+We sequence work to minimize inconvenience, coordinating subtrades and inspections while you continue living in your home when possible.
 
 ### What we do
 
-- Whole-home and multi-room renovation planning
+- Whole-house and multi-room renovation planning
 - Structural modifications: walls, beams, floor systems
 - Complete electrical, plumbing, and HVAC upgrades
 - Insulation, drywall, and plaster repair

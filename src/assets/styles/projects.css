@@ -598,18 +598,17 @@
 @media only screen and (min-width: 64rem) {
   #sbs-2295 .cs-container {
     flex-direction: row;
-    align-items: stretch;
+    align-items: flex-start;
   }
   #sbs-2295 .cs-image-group {
     font-size: min(1.03vw, 1rem);
     height: auto;
+    margin-top: 10rem;
   }
   #sbs-2295 .cs-picture-wrapper1 {
-    height: auto;
     bottom: 7.5625em;
   }
   #sbs-2295 .cs-picture-wrapper2 {
-    height: auto;
     top: 6.5em;
   }
 }

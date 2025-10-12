@@ -1,86 +1,87 @@
 ---
 title: "Deck Construction & Renovation"
-description: "Custom deck construction and renovation services in Half Moon Bay and the Bay Area — durable materials, expert craftsmanship, and designs built to last."
+description: "Design and build outdoor decks — new construction, rebuilds, waterproofing, and railing systems to match your home and site."
 layout: layouts/services.html
 
 hero:
   heading: "Deck Construction & Renovation"
-  subheading: "Outdoor Living Spaces Built Right"
-  text: "Whether building a new deck from the ground up or restoring an aging structure, we deliver outdoor spaces that enhance your home and withstand the elements. Our process covers design, structural planning, permitting, and complete installation."
+  subheading: "Outdoor Spaces Built to Last"
+  text: "Custom decks and outdoor living spaces — we handle framing, waterproofing, railing systems, and finishes suitable for coastal climates."
   cta_text: "Request an Estimate"
   cta_url: "/contact/"
   graphic: "/assets/svgs/slashes.svg"
   picture:
-    mobile: "/assets/images/deck-m-1.webp"
-    desktop: "/assets/images/deck-1.webp"
+    mobile: "/assets/images/bodas-image-m-6.webp"
+    desktop: "/assets/images/bodas-image-6.webp"
   background:
-    mobile: "/assets/images/deck-m-2.webp"
-    desktop: "/assets/images/deck-2.webp"
+    mobile: "/assets/images/bodas-image-m-7.webp"
+    desktop: "/assets/images/bodas-image-7.webp"
 
 image_group:
   picture:
-    mobile: "/assets/images/deck-m-3.webp"
-    desktop: "/assets/images/deck-3.webp"
-  box_icon: "/assets/icons/gear-white.svg"
-  box_text: "We've Over 26 Years of Experience"
+    mobile: "/assets/images/bodas-image-m-7.webp"
+    desktop: "/assets/images/bodas-image-7.webp"
+  box_icon: "/assets/svgs/gear.svg"
+  box_text: "Durable Materials & Code-Compliant Railings"
 
 features:
-  - title: "Structural Expertise"
-    text: "Proper framing, post-to-beam connections, and code-compliant construction."
-    icon: "/assets/icons/trophy.svg"
-  - title: "Material Selection"
-    text: "Guidance on pressure-treated, composite, hardwood, and low-maintenance options."
-    icon: "/assets/icons/circle-check.svg"
+  - title: "Structural Framing"
+    text: "Properly sized and flashed framing for long-life performance."
+    icon: "/assets/svgs/trophy.svg"
+  - title: "Railings & Safety"
+    text: "Code-compliant railing systems and stair solutions."
+    icon: "/assets/svgs/circle-check.svg"
 
 seo:
   title: "Deck Construction & Renovation — Bodas Construction"
-  description: "Professional deck building and renovation in the Bay Area — from custom designs to structural repairs, built for durability and outdoor enjoyment."
+  description: "Deck construction and renovation services — framing, waterproofing, railing systems, and maintenance."
 ---
 
-## Built for outdoor living and lasting performance
+## Decks built for longevity
 
-We design and build decks that expand your living space while standing up to Bay Area weather. From ground-level platforms to elevated multi-tier designs, our work emphasizes proper drainage, structural integrity, and thoughtful integration with your home's architecture.
+We detail connections, flashing, and finishes to resist moisture and deliver a safe, long-lasting outdoor space.
 
 ### What we do
 
-- Site assessment and design consultation
-- Foundation and framing with engineered lumber
-- Deck board installation (wood, composite, or PVC)
-- Railing systems, stairs, and built-in benches
-- Waterproofing, flashing, and ledger board attachment
-- Renovation work: board replacement, structural reinforcement, refinishing
+- Custom deck design and planning
+- Structural framing and reinforcement
+- Waterproofing and moisture management
+- Railing system installation (code-compliant)
+- Deck surface finishing and sealing
+- Repair and renovation of existing decks
 
 ### Why clients choose us
 
-1. Code-compliant construction — safe, inspected, and warrantied.
-2. Material expertise — we help you choose the right product for your budget and maintenance preference.
-3. Attention to detail — proper joist spacing, hidden fasteners, and clean finish work.
+1. Expertise in coastal construction — we understand the challenges of building in seaside environments.
+2. Comprehensive services — from design to permitting to construction, we manage all aspects of your project.
+3. Commitment to quality — we use only the best materials and practices to ensure your deck lasts for years to come.
 
 ### Typical project phases
 
-1. Site visit and design discussion
-2. Material selection and detailed estimate
-3. Permit submission and approval
-4. Foundation and framing
-5. Decking, railings, and final inspection
+1. Initial consultation and site evaluation
+2. Custom design creation and revision
+3. Material selection and procurement
+4. Structural framing and waterproofing installation
+5. Railing and stair construction
+6. Final inspection and project walkthrough
 
 ### Design considerations
 
-- Plan for proper slope and drainage to prevent water pooling
-- Choose railing heights and styles that complement your home
-- Consider built-in seating, planters, or lighting for added functionality
-- Use appropriate fasteners and hardware for longevity
+- Optimize for views and sunlight while ensuring privacy
+- Select materials and finishes that complement your home’s architecture
+- Incorporate features like built-in seating, planters, and lighting
+- Ensure compliance with local building codes and regulations
 
 ---
 
 ### Example scope options
 
-- Deck refresh: cleaning, staining, and board replacement as needed
-- Standard build: new wood or composite deck with railing and stairs
-- Custom design: multi-level deck with integrated features and premium materials
+- Basic repair: replace damaged boards, reinforce structure, seal surfaces
+- Standard deck: new construction with pressure-treated wood or composite materials
+- Premium upgrade: exotic hardwoods, custom railings, integrated lighting, and water features
 
-We'll walk your property, discuss your vision, and provide a transparent estimate with material options and timeline.
+We’ll provide a detailed, transparent estimate based on your specific needs and preferences.
 
 ### Ready to start?
 
-Contact us for a free consultation. We'll assess your site, review your goals, and provide a detailed proposal. Use the button above or visit /contact/.
+Contact us for a free consultation. We’ll discuss your project, explore design options, and provide a comprehensive estimate. Use the button above or visit /contact/.

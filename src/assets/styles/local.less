@@ -160,12 +160,14 @@
             color: var(--headerColor);
         }
 
+        // hide .cs-picture on mobile
+
         .cs-picture {
             width: 100%;
             /* 427px - 581px */
             max-width: clamp(26.6875rem, 50vw, 36.3125rem);
             height: auto;
-            display: flex;
+            display: none;
             align-items: flex-end;
             position: relative;
             z-index: 7;
@@ -297,10 +299,12 @@
 
         .cs-picture {
             width: 45%;
-            /* same value as the padding, but opposite */
-            bottom: calc(clamp(9.25rem, 20vw, 19.9375rem)*-1);
+            // bottom make it half the view height calculated
+            bottom: 20rem;
             /* 32px - 80px */
             right: (16/16rem);
+            display: flex;
+
         }
 
         .cs-background2 {

@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <!-- UTF character encoding means all characters under UTF-8, including emojis, render correctly -->
-        <meta charset="UTF-8">
 
-        <!-- Ensures the viewport widths are defined correctly and work on all devices (esp. mobile) -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<head>
+    <!-- UTF character encoding means all characters under UTF-8, including emojis, render correctly -->
+    <meta charset="UTF-8">
 
-        <!-- May be used in SERP results. Search Engines may also change them, at their discretion. Good to set anyway -->
-        <meta name="description" content="{{ description }}">
+    <!-- Ensures the viewport widths are defined correctly and work on all devices (esp. mobile) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 
-        <!-- Identifies eleventy as the generator for this document. Shows in apps like Wappalyzer or BuiltWith. Proves that you're a worthy developer that cares about your product -->
-        <meta name="generator" content="{{ eleventy.generator }}">
+    <!-- May be used in SERP results. Search Engines may also change them, at their discretion. Good to set anyway -->
+    <meta name="description" content="{{ description }}">
 
-        <!-- Open Graph tags to improve how the website shows up on social media -->
-        {# CS-TODO: Change the OG Tags (image, in particular) to something appropriate for your client #}
-        <meta property="og:title" content="{{ title }}">
-        <meta property="og:description" content="{{ description }}">
-        <meta property="og:url" content="{{ client.domain }}{{ page.url }}">
-        <meta property="og:type" content="website">
-        <meta property="og:image" content="https://bodasconstruction.com/templates/yootheme/cache/73/logo-2-7367dee8.webp">
-        <meta property="og:site_name" content="{{ client.name }}">
-        <meta property="og:locale" content="en_US">
-        <meta property="og:image:width" content="1421">
-        <meta property="og:image:height" content="180">
+    <!-- Identifies eleventy as the generator for this document. Shows in apps like Wappalyzer or BuiltWith. Proves that you're a worthy developer that cares about your product -->
+    <meta name="generator" content="{{ eleventy.generator }}">
 
-        <!-- Helps prevent duplicate content issues -->
-        <link rel="canonical" href="{{ client.domain }}{{ page.url }}">
+    <!-- Open Graph tags to improve how the website shows up on social media -->
+    {# CS-TODO: Change the OG Tags (image, in particular) to something appropriate for your client #}
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:description" content="{{ description }}">
+    <meta property="og:url" content="{{ client.domain }}{{ page.url }}">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://bodasconstruction.com/templates/yootheme/cache/73/logo-2-7367dee8.webp">
+    <meta property="og:site_name" content="{{ client.name }}">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:image:width" content="1421">
+    <meta property="og:image:height" content="180">
+    <link rel="icon" href="/assets/favicons/favicon.ico" type="image/x-icon">
+
+    <!-- Helps prevent duplicate content issues -->
+    <link rel="canonical" href="{{ client.domain }}{{ page.url }}">
 
     <!-- Sitewide Stylesheets -->
     <link rel="stylesheet" href="/assets/styles/root.css">
@@ -34,22 +36,25 @@
     <link rel="stylesheet" href="/assets/styles/footer.css">
     <link rel="stylesheet" href="/assets/styles/local.css">
 
-        <!-- Sitewide Scripts -->
-        <script src="/assets/js/nav.js" defer></script>
+    <!-- Sitewide Scripts -->
+    <script src="/assets/js/nav.js" defer></script>
 
-        <!-- Use a head block in any layout extending from base.html to include page-specific <head> tags. It will be included here -->
-        {# CS-TODO: Contrary to the Intermediate Kit, all preloads will need to be done manually from the pages head block. This is so responsive preloads can be achieved when using the optimization branch #}
-        {# https://web.dev/articles/preload-responsive-images #}
-        {% block head %}{% endblock %}
+    <!-- Use a head block in any layout extending from base.html to include page-specific <head> tags. It will be included here -->
+    {# CS-TODO: Contrary to the Intermediate Kit, all preloads will need to be done manually from the pages head block.
+    This is so responsive preloads can be achieved when using the optimization branch #}
+    {# https://web.dev/articles/preload-responsive-images #}
+    {% block head %}{% endblock %}
 
-        <!-- Uses the title directly from the frontmatter of the page -->
-        <title>{{ title }}</title>
-    </head>
-    <body>
-        {% include "components/header.html" %}
-        <main id="main">
-            {% block body %}{% endblock %}
-        </main>
-        {% include "components/footer.html" %}
-    </body>
+    <!-- Uses the title directly from the frontmatter of the page -->
+    <title>{{ title }}</title>
+</head>
+
+<body>
+    {% include "components/header.html" %}
+    <main id="main">
+        {% block body %}{% endblock %}
+    </main>
+    {% include "components/footer.html" %}
+</body>
+
 </html>

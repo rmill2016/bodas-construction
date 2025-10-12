@@ -1,45 +1,45 @@
 ---
 title: "Home Additions"
-description: "Custom home addition services in Half Moon Bay and the Bay Area — expanding your living space with seamless integration and quality construction."
+description: "Seamless home additions that integrate with your existing house — bump-outs, second-story additions, and accessory dwelling units (ADUs)."
 layout: layouts/services.html
 
 hero:
   heading: "Home Additions"
-  subheading: "More Space, Same Home"
-  text: "When you need more room but love your location, a home addition is the answer. We handle foundation work, framing, roofing, and finishes to create spaces that feel like they've always been there — from extra bedrooms to expanded living areas."
+  subheading: "Expand Thoughtfully — Built to Match Your Home"
+  text: "Whether you need more living space, a dedicated home office, or an ADU, we deliver additions that respect structure, style, and site constraints."
   cta_text: "Request an Estimate"
   cta_url: "/contact/"
   graphic: "/assets/svgs/slashes.svg"
   picture:
-    mobile: "/assets/images/addition-m-1.webp"
-    desktop: "/assets/images/addition-1.webp"
+    mobile: "/assets/images/bodas-image-m-8.webp"
+    desktop: "/assets/images/bodas-image-8.webp"
   background:
-    mobile: "/assets/images/addition-m-2.webp"
-    desktop: "/assets/images/addition-2.webp"
+    mobile: "/assets/images/bodas-image-m-9.webp"
+    desktop: "/assets/images/bodas-image-9.webp"
 
 image_group:
   picture:
-    mobile: "/assets/images/addition-m-3.webp"
-    desktop: "/assets/images/addition-3.webp"
-  box_icon: "/assets/icons/gear-white.svg"
-  box_text: "We've Over 26 Years of Experience"
+    mobile: "/assets/images/bodas-image-m-9.webp"
+    desktop: "/assets/images/bodas-image-9.webp"
+  box_icon: "/assets/svgs/gear.svg"
+  box_text: "Permitting, Structural, & Finish Work"
 
 features:
-  - title: "Full-Service Approach"
-    text: "From architectural planning to final trim, we coordinate every phase."
-    icon: "/assets/icons/trophy.svg"
-  - title: "Seamless Integration"
-    text: "New construction blends with existing structure in materials and design."
-    icon: "/assets/icons/circle-check.svg"
+  - title: "Structural Integration"
+    text: "Engineered solutions to tie new construction into existing structures cleanly."
+    icon: "/assets/svgs/trophy.svg"
+  - title: "ADUs & Bump-outs"
+    text: "Accessory units and bump-outs with efficient layouts and complete permitting."
+    icon: "/assets/svgs/circle-check.svg"
 
 seo:
   title: "Home Additions — Bodas Construction"
-  description: "Professional home addition services in the Bay Area — expert planning, permitting, and construction for room additions, second stories, and expanded living spaces."
+  description: "Professional home additions and ADU construction in Half Moon Bay and the Bay Area."
 ---
 
-## Expand your home with confidence
+## Add meaningful space to your home
 
-Home additions require careful planning and skilled execution. We manage the entire process — from feasibility and design through foundation, framing, systems integration, and finish work — ensuring your new space matches the quality and character of your existing home.
+Additions are complex but rewarding. We manage design, structural engineering coordination, and the full construction scope for a single point of responsibility.
 
 ### What we do
 

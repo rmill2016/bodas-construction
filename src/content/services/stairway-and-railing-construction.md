@@ -1,45 +1,45 @@
 ---
 title: "Stairway & Railing Construction"
-description: "Custom stairway and railing construction in Half Moon Bay and the Bay Area — safe, code-compliant builds with quality materials and craftsmanship."
+description: "Custom stair and railing work — interior and exterior designs, code compliance, and finish carpentry for safe, attractive circulation."
 layout: layouts/services.html
 
 hero:
   heading: "Stairway & Railing Construction"
-  subheading: "Stairs Built for Safety and Style"
-  text: "Whether installing new stairs, replacing worn treads, or upgrading railings for compliance and aesthetics, we deliver precise work that meets building codes and enhances your home. Our approach balances structural integrity with design intent."
+  subheading: "Safe, Stylish Vertical Circulation"
+  text: "We fabricate and install stair systems and railings that balance safety and design — from compact interior stairs to exterior stringer systems."
   cta_text: "Request an Estimate"
   cta_url: "/contact/"
   graphic: "/assets/svgs/slashes.svg"
   picture:
-    mobile: "/assets/images/stairway-m-1.webp"
-    desktop: "/assets/images/stairway-1.webp"
+    mobile: "/assets/images/bodas-image-m-12.webp"
+    desktop: "/assets/images/bodas-image-12.webp"
   background:
-    mobile: "/assets/images/stairway-m-2.webp"
-    desktop: "/assets/images/stairway-2.webp"
+    mobile: "/assets/images/bodas-image-m-13.webp"
+    desktop: "/assets/images/bodas-image-13.webp"
 
 image_group:
   picture:
-    mobile: "/assets/images/stairway-m-3.webp"
-    desktop: "/assets/images/stairway-3.webp"
-  box_icon: "/assets/icons/gear-white.svg"
-  box_text: "We've Over 26 Years of Experience"
+    mobile: "/assets/images/bodas-image-m-13.webp"
+    desktop: "/assets/images/bodas-image-13.webp"
+  box_icon: "/assets/svgs/gear.svg"
+  box_text: "Precision Carpentry & Code Knowledge"
 
 features:
-  - title: "Code Compliance"
-    text: "Proper rise, run, handrail height, and baluster spacing per local building codes."
-    icon: "/assets/icons/trophy.svg"
-  - title: "Material Options"
-    text: "Wood, metal, cable, glass, and composite railing systems to match your design."
-    icon: "/assets/icons/circle-check.svg"
+  - title: "Custom Treads & Risers"
+    text: "Custom millwork, nosing, and finish carpentry for interior stairs."
+    icon: "/assets/svgs/trophy.svg"
+  - title: "Exterior Stair Systems"
+    text: "Durable exterior stair assemblies and corrosion-resistant railings."
+    icon: "/assets/svgs/circle-check.svg"
 
 seo:
   title: "Stairway & Railing Construction — Bodas Construction"
-  description: "Professional stairway and railing services in the Bay Area — new construction, repairs, and upgrades built to code with quality materials."
+  description: "Stairway and railing construction services — millwork, metal railing, exterior stairs, and code-compliant installations."
 ---
 
-## Stairs and railings that combine safety with design
+## Stair and railing solutions
 
-Stairways and railings are both functional and prominent features in any home. We construct and install stairs that meet strict code requirements while offering design options — from traditional wood to modern cable rail — that enhance your interior or exterior spaces.
+We design for safe circulation and clean aesthetics, coordinating with structural requirements and finish trades.
 
 ### What we do
 
