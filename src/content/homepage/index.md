@@ -122,6 +122,6 @@ seo:
     - construction services
     - general contractor
     - Bay Area contractor
-  image: /images/logos/logo.png
+  image: ''
 ---
 

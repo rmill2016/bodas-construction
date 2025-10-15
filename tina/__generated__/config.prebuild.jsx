@@ -1,24 +1,19 @@
+// tina/config.ts
 import { defineConfig } from "tinacms";
-
-const branch =
-  process.env.HEAD ||
-  "main";
-
-export default defineConfig({
+var branch = process.env.HEAD || "main";
+var config_default = defineConfig({
   branch,
-
   clientId: process.env.TINA_CLIENT_ID,
   token: process.env.TINA_TOKEN,
-
   build: {
     outputFolder: "admin",
-    publicFolder: "public",
+    publicFolder: "public"
   },
   media: {
     tina: {
       mediaRoot: "",
-      publicFolder: "public",
-    },
+      publicFolder: "public"
+    }
   },
   schema: {
     collections: [
@@ -32,15 +27,15 @@ export default defineConfig({
             name: "title",
             label: "Title",
             isTitle: true,
-            required: true,
+            required: true
           },
           {
             type: "rich-text",
             name: "body",
             label: "Body",
-            isBody: true,
-          },
-        ],
+            isBody: true
+          }
+        ]
       },
       {
         name: "homepage",
@@ -249,6 +244,9 @@ export default defineConfig({
           ] }
         ]
       }
-    ],
-  },
+    ]
+  }
 });
+export {
+  config_default as default
+};
