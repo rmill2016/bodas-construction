@@ -98,7 +98,6 @@
 
             &:hover {
                 color: #fff;
-
                 &:before {
                     width: 100%;
                 }
@@ -160,14 +159,12 @@
             color: var(--headerColor);
         }
 
-        // hide .cs-picture on mobile
-
         .cs-picture {
             width: 100%;
             /* 427px - 581px */
             max-width: clamp(26.6875rem, 50vw, 36.3125rem);
-            height: auto;
-            display: none;
+            height: 100%;
+            display: flex;
             align-items: flex-end;
             position: relative;
             z-index: 7;
@@ -204,21 +201,20 @@
                 left: 0;
                 z-index: -1;
             }
-        }
 
-        .cs-background1 {
-            &:before {
-                content: '';
-                width: 100%;
-                height: 100%;
-                background: #000;
-                opacity: .72;
-                display: block;
+            &::after {
+                content: "";
                 position: absolute;
                 top: 0;
                 left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.72);
+                z-index: 2;
             }
         }
+
+        
 
         .cs-background2 {
             height: 100vw;
@@ -248,8 +244,17 @@
             text-align: left;
             width: 53%;
             align-items: flex-start;
-        }
 
+            h1 {
+                font-size: 2.5em;
+            }
+
+            p {
+                font-size: 1em;
+                max-width: 90%;
+            }
+        }
+        
         .cs-card-group {
             width: 96%;
             flex-direction: row;
@@ -268,20 +273,32 @@
         .cs-picture {
             width: 56%;
             position: absolute;
-            bottom: (-120/16rem);
             right: (-10/16rem);
+            top: -4rem;
         }
 
         .cs-image-group {
             flex-direction: row;
         }
 
+        
         .cs-background2 {
             width: 25vw;
             height: 100%;
             max-height: 100%;
             border-left: 2px solid #FFC219;
             bottom: auto;
+        }
+        
+        .cs-background {
+            &::after {
+                background: unset;
+            }
+        }
+        .cs-background1 {
+            &::after {
+                background: rgba(0, 0, 0, 0.72);
+            }
         }
     }
 }
@@ -299,12 +316,10 @@
 
         .cs-picture {
             width: 45%;
-            // bottom make it half the view height calculated
-            bottom: 20rem;
+            /* same value as the padding, but opposite */
+            bottom: calc(clamp(9.25rem, 20vw, 19.9375rem)*-1);
             /* 32px - 80px */
             right: (16/16rem);
-            display: flex;
-
         }
 
         .cs-background2 {
@@ -312,221 +327,8 @@
         }
     }
 }
+   
 
-/*-- -------------------------- -->
-<---           Hero             -->
-<--- -------------------------- -*/
-
-/* Mobile */
-@media only screen and (min-width: 0rem) {
-    #hero-2349 {
-        display: flex;
-        flex-direction: column;
-        gap: (48/16rem);
-        position: relative;
-        z-index: 1;
-
-        .cs-container {
-            width: 100%;
-            max-width: (1800/16rem);
-            margin: auto;
-            /* 392px - 560px */
-            padding-top: clamp(350px, 58vw, 600px);
-            position: relative;
-            z-index: 1;
-        }
-
-        .cs-content {
-            width: 100%;
-            max-width: (952/16rem);
-            padding: var(--sectionPadding);
-            padding-top: 0;
-            padding-bottom: 0;
-            box-sizing: border-box;
-            display: flex;
-            flex-direction: column;
-            row-gap: (16/16rem);
-        }
-
-        .cs-title {
-            /* 39px - 90px */
-            font-size: clamp(2.4375rem, 6vw, 5.625rem);
-            margin-bottom: 0;
-            max-width: 100%;
-            color: var(--bodyTextColorWhite);
-        }
-
-        .cs-text {
-            margin-bottom: (32/16rem);
-            max-width: (872/16rem);
-            color: var(--bodyTextColorWhite);
-        }
-
-        .cs-button-solid {
-            font-size: (16/16rem);
-            font-weight: 700;
-            /* 46px - 56px */
-            line-height: clamp(2.875rem, 5.5vw, 3.5rem);
-            text-align: center;
-            text-decoration: none;
-            min-width: (150/16rem);
-            margin: 0;
-            padding: 0 (24/16rem);
-            background-color: var(--primary);
-            color: var(--bodyTextColorWhite);
-            display: inline-block;
-            position: relative;
-            z-index: 1;
-
-            &:before {
-                content: "";
-                width: 0%;
-                height: 100%;
-                background: #000;
-                opacity: 1;
-                border-radius: (4/16rem);
-                position: absolute;
-                top: 0;
-                left: 0;
-                z-index: -1;
-                transition: width 0.3s;
-            }
-
-            &:hover {
-                &:before {
-                    width: 100%;
-                }
-            }
-        }
-
-        .cs-button-solid {
-            align-self: flex-start;
-        }
-
-        .cs-stats {
-            margin: 0;
-            /* 24px - 40px top & bottom */
-            /* 16px - 60px left & right */
-            padding: clamp(1.5rem, 5vw, 2.5rem) clamp(1rem, 5vw, 3.75rem);
-            box-sizing: border-box;
-            background-color: #f7f7f7;
-            display: grid;
-            grid-template-columns: repeat(12, 1fr);
-            column-gap: (30/16rem);
-            row-gap: (64/16rem);
-        }
-
-        .cs-item {
-            list-style: none;
-            grid-column: span 4;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-        }
-
-        .cs-number {
-            /* 25px - 49px */
-            font-size: clamp(1.5625rem, 5vw, 3.0625rem);
-            line-height: 1.2em;
-            font-weight: 700;
-            margin: 0;
-            color: var(--headerColor);
-        }
-
-        .cs-color {
-            color: var(--primary);
-            display: inline-block;
-            transform: translateX(5px);
-        }
-
-        .cs-desc {
-            /* 14px - 20px */
-            font-size: clamp(0.875rem, 2vw, 1.25rem);
-            line-height: 1.5em;
-            margin: 0;
-            color: var(--bodyTextColor);
-        }
-
-        .cs-background {
-            width: 100%;
-            height: 100%;
-            display: block;
-            position: absolute;
-            top: 0;
-            left: 0;
-            object-fit: cover;
-            z-index: -2;
-
-            &:before {
-                /* gradient Overlay */
-                content: "";
-                width: 100%;
-                height: 100%;
-                background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
-                /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-                opacity: 1;
-                display: block;
-                position: absolute;
-                top: 0;
-                left: 0;
-                z-index: 1;
-            }
-
-            img {
-                width: 100%;
-                height: 100%;
-                display: block;
-                position: absolute;
-                top: 0;
-                left: 0;
-                object-fit: cover;
-            }
-        }
-    }
-}
-
-/* Tablet - 768px */
-@media only screen and (min-width: 48rem) {
-    #hero-2349 {
-        padding: var(--sectionPadding);
-        padding-top: 0;
-        /* 48px - 60px */
-        padding-bottom: clamp(3rem, 4vw, 3.75rem);
-
-        .cs-content {
-            width: 55%;
-            padding: 0;
-        }
-
-        .cs-stats {
-            width: auto;
-            background-color: #fff;
-            column-gap: 0;
-            position: absolute;
-            bottom: 0;
-            right: 0;
-            z-index: 10;
-        }
-
-        .cs-item {
-            grid-column: span 12;
-        }
-    }
-}
-
-/* Large Desktop - 1600px */
-@media only screen and (min-width: 100rem) {
-    #hero-2349 {
-        .cs-stats {
-            grid-template-columns: repeat(3, 1fr);
-            gap: (72/16rem);
-        }
-
-        .cs-item {
-            grid-column: span 1;
-        }
-    }
-}
 
 /*-- -------------------------- -->
 <---          Services          -->
