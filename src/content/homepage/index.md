@@ -1,7 +1,7 @@
 ---
 hero:
   title: Bodas Construction
-  text: >-
+  description: >-
     Licensed general contractor in Half Moon Bay specializing in kitchen
     remodeling, bathroom renovation, home additions & custom construction. 20+
     years experience.
