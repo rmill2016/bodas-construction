@@ -1,70 +1,85 @@
 {% block head %}
-    <link rel="stylesheet" href="/assets/styles/home.css">
-    <link rel="stylesheet" href="/assets/styles/local.css">
+<link rel="stylesheet" href="/assets/styles/home.css">
+<link rel="stylesheet" href="/assets/styles/local.css">
 {% endblock %}
 
 {% extends 'layouts/base.html' %}
 
 {% block body %}
-    <!-- ============================================ -->
+<!-- ============================================ -->
 <!--                    Hero                      -->
 <!-- ============================================ -->
 
 <section id="hero-2325">
     <div class="cs-container">
         <div class="cs-content">
-            <h1 class="cs-title">{{ homepage.seo.title }}</h1>
+            <h1 class="cs-title">Bodas Construction</h1>
             <p class="cs-text">
-                Licensed general contractor in Half Moon Bay specializing in kitchen remodeling, bathroom renovation, home additions & custom construction. 20+ years experience.
+                Licensed general contractor in Half Moon Bay specializing in kitchen remodeling, bathroom renovation,
+                home additions & custom construction. 20+ years experience.
             </p>
             <a href="/services" class="cs-button-solid">
                 Discover Our Services
-                <img class="cs-button-arrow" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/white-arrow-up.svg" decoding="async" alt="arrow" width="20" height="20" aria-hidden="true">
+                <img class="cs-button-arrow"
+                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/white-arrow-up.svg" decoding="async"
+                    alt="arrow" width="20" height="20" aria-hidden="true">
             </a>
         </div>
         <!--To make your own background crops of people use https://www.remove.bg/-->
         <picture class="cs-picture">
             <source media="(max-width: 600px)" srcset="/assets/images/bodas-image-m-1.webp">
             <source media="(min-width: 601px)" srcset="/assets/images/bodas-image-1.webp">
-            <img aria-hidden="true" decoding="async" src="/assets/images/bodas-image-1.webp" alt="construction worker" width="581" height="662">
+            <img aria-hidden="true" decoding="async" src="/assets/images/bodas-image-1.webp" alt="construction worker"
+                width="581" height="662">
         </picture>
     </div>
     <div class="cs-image-group">
         <!--Left Image-->
         <picture class="cs-background cs-background1">
-            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/construction2.jpg">
-            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/construction2.jpg">
-            <img aria-hidden="true" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/construction2.jpg" alt="construction site" width="1290" height="684">
+            <source media="(max-width: 600px)"
+                srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/construction2.jpg">
+            <source media="(min-width: 601px)"
+                srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/construction2.jpg">
+            <img aria-hidden="true" decoding="async"
+                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/construction2.jpg"
+                alt="construction site" width="1290" height="684">
         </picture>
         <!--Right Image-->
         <picture class="cs-background cs-background2">
-            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/construction1.jpg">
-            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/construction1.jpg">
-            <img aria-hidden="true" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/construction1.jpg" alt="construction site" width="630" height="684">
+            <source media="(max-width: 600px)"
+                srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/construction1.jpg">
+            <source media="(min-width: 601px)"
+                srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/construction1.jpg">
+            <img aria-hidden="true" decoding="async"
+                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/construction1.jpg"
+                alt="construction site" width="630" height="684">
         </picture>
     </div>
     <ul class="cs-card-group">
         <li class="cs-item">
             <picture class="cs-item-picture">
-                <img decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/construction1.jpg" alt="construction site" width="80" height="80">
+                <img decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/construction1.jpg"
+                    alt="construction site" width="80" height="80">
             </picture>
             <h3 class="cs-h3">Best Home Additions</h3>
         </li>
         <li class="cs-item">
             <picture class="cs-item-picture">
-                <img decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/construction1.jpg" alt="construction site" width="80" height="80">
+                <img decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/construction1.jpg"
+                    alt="construction site" width="80" height="80">
             </picture>
             <h3 class="cs-h3">Quality Always Matters</h3>
         </li>
         <li class="cs-item">
             <picture class="cs-item-picture">
-                <img decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/construction1.jpg" alt="construction site" width="80" height="80">
+                <img decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/construction1.jpg"
+                    alt="construction site" width="80" height="80">
             </picture>
             <h3 class="cs-h3">Building Better Homes</h3>
         </li>
     </ul>
 </section>
-           
+
 <!-- ============================================ -->
 <!--                  Services                    -->
 <!-- ============================================ -->
@@ -76,18 +91,22 @@
                 <span class="cs-topper">Our services</span>
                 <h2 class="cs-title">Awesome Services!</h2>
                 <p class="cs-text">
-                   Transform Your Home with Half Moon Bay's Most Trusted General Contractor
+                    Transform Your Home with Half Moon Bay's Most Trusted General Contractor
                 </p>
                 <a href="/services" class="cs-button-solid">View All</a>
-            </div>   
+            </div>
             <picture class="cs-content-picture">
                 <!--Mobile Image-->
-                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/building-clip2.png">
+                <source media="(max-width: 600px)"
+                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/building-clip2.png">
                 <!--Tablet and above Image-->
-                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/building-clip2.png">
-                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/building-clip2.png" alt="room" width="413" height="420">
+                <source media="(min-width: 601px)"
+                    srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/building-clip2.png">
+                <img loading="lazy" decoding="async"
+                    src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/building-clip2.png" alt="room"
+                    width="413" height="420">
             </picture>
-        </div>               
+        </div>
         <div class="cs-card-wrapper">
             <span class="cs-header">Popular Services</span>
             <ul class="cs-card-group">
@@ -98,15 +117,19 @@
                             <source media="(max-width: 600px)" srcset="/assets/images/bodas-image-m-2.webp">
                             <!--Tablet and above Image-->
                             <source media="(min-width: 601px)" srcset="/assets/images/bodas-image-2.webp">
-                            <img loading="lazy" decoding="async" src="/assets/images/bodas-image-2.webp" alt="room" width="413" height="420">
+                            <img loading="lazy" decoding="async" src="/assets/images/bodas-image-2.webp" alt="room"
+                                width="413" height="420">
                         </picture>
                         <h3 class="cs-h3">Kitchen Remodeling</h3>
                         <p class="cs-item-text">
-                            Reshape your kitchen with marble countertops, custom cabinetry, and modern fixtures for a blend of style and functionality.
+                            Reshape your kitchen with marble countertops, custom cabinetry, and modern fixtures for a
+                            blend of style and functionality.
                         </p>
                         <span class="cs-fake-link">
                             View More
-                            <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/black%20upper%20right%20arrow.svg" alt="icon" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
+                            <img class="cs-icon"
+                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/black%20upper%20right%20arrow.svg"
+                                alt="icon" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
                         </span>
                     </a>
                 </li>
@@ -117,7 +140,8 @@
                             <source media="(max-width: 600px)" srcset="/assets/images/bodas-image-m-18.webp">
                             <!--Tablet and above Image-->
                             <source media="(min-width: 601px)" srcset="/assets/images/bodas-image-18.webp">
-                            <img loading="lazy" decoding="async" src="/assets/images/bodas-image-18.webp" alt="room" width="413" height="420">
+                            <img loading="lazy" decoding="async" src="/assets/images/bodas-image-18.webp" alt="room"
+                                width="413" height="420">
                         </picture>
                         <h3 class="cs-h3">Home Additions</h3>
                         <p class="cs-item-text">
@@ -125,7 +149,9 @@
                         </p>
                         <span class="cs-fake-link">
                             View More
-                            <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/black%20upper%20right%20arrow.svg" alt="icon" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
+                            <img class="cs-icon"
+                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/black%20upper%20right%20arrow.svg"
+                                alt="icon" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
                         </span>
                     </a>
                 </li>
@@ -136,15 +162,19 @@
                             <source media="(max-width: 600px)" srcset="/assets/images/bodas-image-m-20.webp">
                             <!--Tablet and above Image-->
                             <source media="(min-width: 601px)" srcset="/assets/images/bodas-image-20.webp">
-                            <img loading="lazy" decoding="async" src="/assets/images/bodas-image-20.webp" alt="room" width="413" height="420">
+                            <img loading="lazy" decoding="async" src="/assets/images/bodas-image-20.webp" alt="room"
+                                width="413" height="420">
                         </picture>
                         <h3 class="cs-h3">Deck Construction</h3>
                         <p class="cs-item-text">
-                            Enhance your outdoor living with deck construction built to your preference with our renovation services.
+                            Enhance your outdoor living with deck construction built to your preference with our
+                            renovation services.
                         </p>
                         <span class="cs-fake-link">
                             View More
-                            <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/black%20upper%20right%20arrow.svg" alt="icon" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
+                            <img class="cs-icon"
+                                src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/black%20upper%20right%20arrow.svg"
+                                alt="icon" width="20" height="20" loading="lazy" decoding="async" aria-hidden="true">
                         </span>
                     </a>
                 </li>
@@ -152,7 +182,7 @@
         </div>
     </div>
 </section>
-                                
+
 
 <!-- ============================================ -->
 <!--                   Steps                      -->
@@ -164,7 +194,9 @@
             <span class="cs-topper">How We Work</span>
             <h2 class="cs-title">Why Half Moon Bay Homeowners Trust Bodas Construction</h2>
             <p class="cs-text">
-                For over two decades, homeowners throughout San Mateo County have chosen Bodas Construction for their most important remodeling and construction projects. Here's what sets us apart as Half Moon Bay's premier general contractor.
+                For over two decades, homeowners throughout San Mateo County have chosen Bodas Construction for their
+                most important remodeling and construction projects. Here's what sets us apart as Half Moon Bay's
+                premier general contractor.
             </p>
         </div>
         <ul class="cs-card-group">
@@ -172,28 +204,29 @@
                 <span class="cs-number">01</span>
                 <p class="cs-item-text">
                     Proven Local Expertise
-"20+ Years of Coastal Construction Mastery"
-With over 20 years serving Half Moon Bay and San Mateo County. 
+                    "20+ Years of Coastal Construction Mastery"
+                    With over 20 years serving Half Moon Bay and San Mateo County.
                 </p>
             </li>
             <li class="cs-item">
                 <span class="cs-number">02</span>
                 <p class="cs-item-text">
                     Exceptional Project Management
-Seamless Execution from Concept to Completion.
+                    Seamless Execution from Concept to Completion.
                 </p>
             </li>
             <li class="cs-item">
                 <span class="cs-number">03</span>
                 <p class="cs-item-text">
                     Quality & Reliability
-Our portfolio speaks for itself: hundreds of successful kitchen remodels, bathroom renovations, home additions, and whole house transformations. 
+                    Our portfolio speaks for itself: hundreds of successful kitchen remodels, bathroom renovations, home
+                    additions, and whole house transformations.
                 </p>
             </li>
         </ul>
     </div>
 </section>
-                             
+
 
 <!-- ============================================ -->
 <!--                  Gallery                     -->
@@ -208,7 +241,8 @@ Our portfolio speaks for itself: hundreds of successful kitchen remodels, bathro
             </div>
             <div class="cs-flex">
                 <p class="cs-text">
-                   Complete home transformations from concept to completion. Comprehensive renovation services that modernize every aspect of your living space with exceptional craftsmanship.
+                    Complete home transformations from concept to completion. Comprehensive renovation services that
+                    modernize every aspect of your living space with exceptional craftsmanship.
                 </p>
             </div>
         </div>
@@ -216,99 +250,114 @@ Our portfolio speaks for itself: hundreds of successful kitchen remodels, bathro
             <picture class="cs-picture cs-picture-1">
                 <source media="(max-width: 600px)" srcset="/assets/images/bodas-image-m-1.webp">
                 <source media="(min-width: 601px)" srcset="/assets/images/bodas-image-1.webp">
-                <img loading="lazy" decoding="async" src="/assets/images/bodas-image-1.webp" alt="formerly dress you people outside" width="380" height="271">
+                <img loading="lazy" decoding="async" src="/assets/images/bodas-image-1.webp"
+                    alt="formerly dress you people outside" width="380" height="271">
             </picture>
             <picture class="cs-picture cs-picture-2">
                 <source media="(max-width: 600px)" srcset="/assets/images/bodas-image-m-2.webp">
                 <source media="(min-width: 601px)" srcset="/assets/images/bodas-image-2.webp">
-                <img loading="lazy" decoding="async" src="/assets/images/bodas-image-2.webp" alt="formerly dress you people outside" width="380" height="271">
+                <img loading="lazy" decoding="async" src="/assets/images/bodas-image-2.webp"
+                    alt="formerly dress you people outside" width="380" height="271">
             </picture>
             <picture class="cs-picture cs-picture-3">
                 <source media="(max-width: 600px)" srcset="/assets/images/bodas-image-m-3.webp">
                 <source media="(min-width: 601px)" srcset="/assets/images/bodas-image-3.webp">
-                <img loading="lazy" decoding="async" src="/assets/images/bodas-image-3.webp" alt="formerly dress you people outside" width="380" height="271">
+                <img loading="lazy" decoding="async" src="/assets/images/bodas-image-3.webp"
+                    alt="formerly dress you people outside" width="380" height="271">
             </picture>
             <picture class="cs-picture cs-picture-4">
                 <source media="(max-width: 600px)" srcset="/assets/images/bodas-image-m-4.webp">
                 <source media="(min-width: 601px)" srcset="/assets/images/bodas-image-4.webp">
-                <img loading="lazy" decoding="async" src="/assets/images/bodas-image-4.webp" alt="formerly dress you people outside" width="380" height="271">
+                <img loading="lazy" decoding="async" src="/assets/images/bodas-image-4.webp"
+                    alt="formerly dress you people outside" width="380" height="271">
             </picture>
             <picture class="cs-picture cs-picture-5">
                 <source media="(max-width: 600px)" srcset="/assets/images/bodas-image-m-5.webp">
                 <source media="(min-width: 601px)" srcset="/assets/images/bodas-image-5.webp">
-                <img loading="lazy" decoding="async" src="/assets/images/bodas-image-5.webp" alt="formerly dress you people outside" width="380" height="271">
+                <img loading="lazy" decoding="async" src="/assets/images/bodas-image-5.webp"
+                    alt="formerly dress you people outside" width="380" height="271">
             </picture>
             <picture class="cs-picture cs-picture-6">
                 <source media="(max-width: 600px)" srcset="/assets/images/bodas-image-m-6.webp">
                 <source media="(min-width: 601px)" srcset="/assets/images/bodas-image-6.webp">
-                <img loading="lazy" decoding="async" src="/assets/images/bodas-image-6.webp" alt="formerly dress you people outside" width="380" height="271">
+                <img loading="lazy" decoding="async" src="/assets/images/bodas-image-6.webp"
+                    alt="formerly dress you people outside" width="380" height="271">
             </picture>
             <picture class="cs-picture cs-picture-7">
                 <source media="(max-width: 600px)" srcset="/assets/images/bodas-image-m-7.webp">
                 <source media="(min-width: 601px)" srcset="/assets/images/bodas-image-7.webp">
-                <img loading="lazy" decoding="async" src="/assets/images/bodas-image-7.webp" alt="formerly dress you people outside" width="380" height="271">
+                <img loading="lazy" decoding="async" src="/assets/images/bodas-image-7.webp"
+                    alt="formerly dress you people outside" width="380" height="271">
             </picture>
             <picture class="cs-picture cs-picture-8">
                 <source media="(max-width: 600px)" srcset="/assets/images/bodas-image-m-8.webp">
                 <source media="(min-width: 601px)" srcset="/assets/images/bodas-image-8.webp">
-                <img loading="lazy" decoding="async" src="/assets/images/bodas-image-8.webp" alt="formerly dress you people outside" width="380" height="271">
+                <img loading="lazy" decoding="async" src="/assets/images/bodas-image-8.webp"
+                    alt="formerly dress you people outside" width="380" height="271">
             </picture>
             <picture class="cs-picture cs-picture-9">
                 <source media="(max-width: 600px)" srcset="/assets/images/bodas-image-m-9.webp">
                 <source media="(min-width: 601px)" srcset="/assets/images/bodas-image-9.webp">
-                <img loading="lazy" decoding="async" src="/assets/images/bodas-image-9.webp" alt="formerly dress you people outside" width="380" height="271">
+                <img loading="lazy" decoding="async" src="/assets/images/bodas-image-9.webp"
+                    alt="formerly dress you people outside" width="380" height="271">
             </picture>
             <picture class="cs-picture cs-picture-10">
                 <source media="(max-width: 600px)" srcset="/assets/images/bodas-image-m-10.webp">
                 <source media="(min-width: 601px)" srcset="/assets/images/bodas-image-10.webp">
-                <img loading="lazy" decoding="async" src="/assets/images/bodas-image-10.webp" alt="formerly dress you people outside" width="380" height="271">
+                <img loading="lazy" decoding="async" src="/assets/images/bodas-image-10.webp"
+                    alt="formerly dress you people outside" width="380" height="271">
             </picture>
             <picture class="cs-picture cs-picture-11">
                 <source media="(max-width: 600px)" srcset="/assets/images/bodas-image-m-11.webp">
                 <source media="(min-width: 601px)" srcset="/assets/images/bodas-image-11.webp">
-                <img loading="lazy" decoding="async" src="/assets/images/bodas-image-11.webp" alt="formerly dress you people outside" width="380" height="271">
+                <img loading="lazy" decoding="async" src="/assets/images/bodas-image-11.webp"
+                    alt="formerly dress you people outside" width="380" height="271">
             </picture>
             <picture class="cs-picture cs-picture-12">
                 <source media="(max-width: 600px)" srcset="/assets/images/bodas-image-m-12.webp">
                 <source media="(min-width: 601px)" srcset="/assets/images/bodas-image-12.webp">
-                <img loading="lazy" decoding="async" src="/assets/images/bodas-image-12.webp" alt="formerly dress you people outside" width="380" height="271">
+                <img loading="lazy" decoding="async" src="/assets/images/bodas-image-12.webp"
+                    alt="formerly dress you people outside" width="380" height="271">
             </picture>
             <picture class="cs-picture cs-picture-13">
                 <source media="(max-width: 600px)" srcset="/assets/images/bodas-image-m-13.webp">
                 <source media="(min-width: 601px)" srcset="/assets/images/bodas-image-13.webp">
-                <img loading="lazy" decoding="async" src="/assets/images/bodas-image-13.webp" alt="formerly dress you people outside" width="380" height="271">
+                <img loading="lazy" decoding="async" src="/assets/images/bodas-image-13.webp"
+                    alt="formerly dress you people outside" width="380" height="271">
             </picture>
-            
+
         </div>
     </div>
 </section>
-                     
+
 <!-- ============================================ -->
 <!--                     Quote                    -->
 <!-- ============================================ -->
 
 <section id="quote-2434">
-	<div class="cs-container">
-		<div class="cs-content">
-			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="cs-quote">
-	<g fill="white">
-		<path fill="white" fill-opacity="1" d="M10.99 9.449c.178 3.09-1.998 7.444-6.88 9.551L3 17.08c1.997-1.123 3.507-2.95 4.306-5.15c-2.886-.234-3.729-2.013-3.729-3.464c0-1.967 1.51-3.512 3.374-3.465c1.775-.047 3.817 1.311 4.039 4.448m10 0c.178 3.09-1.997 7.444-6.88 9.551L13 17.08c1.998-1.123 3.507-2.95 4.306-5.15c-2.886-.234-3.729-2.013-3.729-3.464c0-1.967 1.51-3.512 3.374-3.465c1.775-.047 3.817 1.311 4.039 4.448" />
-		
-	</g>
-</svg>
-			<h2 class="cs-title">You can dream, create, design, and build the most wonderful place in the world. But it requires people to make the dream a reality.</h2>
-			<span class="cs-name">
-				Walt Disney
-			</span>
-		</div>
-	</div>
+    <div class="cs-container">
+        <div class="cs-content">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="cs-quote">
+                <g fill="white">
+                    <path fill="white" fill-opacity="1"
+                        d="M10.99 9.449c.178 3.09-1.998 7.444-6.88 9.551L3 17.08c1.997-1.123 3.507-2.95 4.306-5.15c-2.886-.234-3.729-2.013-3.729-3.464c0-1.967 1.51-3.512 3.374-3.465c1.775-.047 3.817 1.311 4.039 4.448m10 0c.178 3.09-1.997 7.444-6.88 9.551L13 17.08c1.998-1.123 3.507-2.95 4.306-5.15c-2.886-.234-3.729-2.013-3.729-3.464c0-1.967 1.51-3.512 3.374-3.465c1.775-.047 3.817 1.311 4.039 4.448" />
+
+                </g>
+            </svg>
+            <h2 class="cs-title">You can dream, create, design, and build the most wonderful place in the world. But it
+                requires people to make the dream a reality.</h2>
+            <span class="cs-name">
+                Walt Disney
+            </span>
+        </div>
+    </div>
     <picture class="cs-background">
         <source media="(max-width: 600px)" srcset="/assets/images/bodas-image-m-10.webp">
         <source media="(min-width: 601px)" srcset="/assets/images/bodas-image-10.webp">
         <img src="/assets/images/bodas-image-10.webp" alt="">
     </picture>
 </section>
-                                
+
 
 <!-- ============================================ -->
 <!--                    CTA                       -->
@@ -322,25 +371,28 @@ Our portfolio speaks for itself: hundreds of successful kitchen remodels, bathro
         </div>
         <div class="cs-right-section">
             <div class="cs-contact">
-                <a class="cs-phone" href="tel:{{client.phoneForTel}}"> 
+                <a class="cs-phone" href="tel:{{client.phoneForTel}}">
                     {{ client.phoneFormatted }}
                 </a>
-                <a class="cs-email" href="mailto:{{client.email}}"> 
+                <a class="cs-email" href="mailto:{{client.email}}">
                     {{client.email}}
                 </a>
-                <a class="cs-address" href="{{client.address.mapLink}}" target="_blank" rel="noopener noreferrer"> 
+                <a class="cs-address" href="{{client.address.mapLink}}" target="_blank" rel="noopener noreferrer">
                     {{client.address.lineOne}}, {{client.address.city}}, {{client.address.state}} {{client.address.zip}}
                 </a>
                 <div class="cs-social">
-                    <a href="{{client.social.instagram}}" class="cs-social-link" target="_blank" aria-label="visit our instagram profile">Instagram</a>
-                    <a href="{{client.social.facebook}}" class="cs-social-link" target="_blank" aria-label="visit our facebook profile">Facebook</a>
-                    <a href="{{client.social.linkedin}}" class="cs-social-link" target="_blank" aria-label="visit our linkedin profile">LinkedIn</a>
+                    <a href="{{client.social.instagram}}" class="cs-social-link" target="_blank"
+                        aria-label="visit our instagram profile">Instagram</a>
+                    <a href="{{client.social.facebook}}" class="cs-social-link" target="_blank"
+                        aria-label="visit our facebook profile">Facebook</a>
+                    <a href="{{client.social.linkedin}}" class="cs-social-link" target="_blank"
+                        aria-label="visit our linkedin profile">LinkedIn</a>
                 </div>
             </div>
         </div>
     </div>
 </section>
-                                
+
 
 
 {% endblock %}
