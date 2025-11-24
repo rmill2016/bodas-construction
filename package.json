@@ -1,7 +1,7 @@
 {
-    "name": "bodas-construction",
+    "name": "Bodas Construction",
     "version": "1.0.0",
-    "description": "Bodas Construction, your trusted general constractor for Half Moon Bay, CA and the Bay Area. Specializing in kitchen remodels, bathroom remodels, home additions, and more.",
+    "description": "Bodas Construction, your trusted general constractor for Half Moon Bay, CA. Specializing in kitchen remodels, bathroom remodels, home additions, and more.",
     "main": "index.js",
     "scripts": {
         "build:eleventy": "cross-env ELEVENTY_ENV=PROD npx tinacms build -c eleventy",
@@ -23,11 +23,9 @@
         "gray-matter": "^4.0.3",
         "less": "^4.4.1",
         "netlify-plugin-cache": "^1.0.3",
-        "npm-run-all": "^4.1.5",
-        "tinacms": "^2.9.0"
+        "npm-run-all": "^4.1.5"
     },
     "devDependencies": {
-        "@tinacms/cli": "^1.11.0",
         "@types/node": "^24.7.2"
     }
 }
