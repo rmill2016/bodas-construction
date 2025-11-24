@@ -4,11 +4,10 @@
     "description": "Bodas Construction, your trusted general constractor for Half Moon Bay, CA. Specializing in kitchen remodels, bathroom remodels, home additions, and more.",
     "main": "index.js",
     "scripts": {
-        "build:eleventy": "cross-env ELEVENTY_ENV=PROD npx tinacms build -c eleventy",
-        "watch:eleventy": "cross-env ELEVENTY_ENV=DEV npx tinacms dev -c \"eleventy --serve\"",
-        "start": "run-p watch:*",
-        "build": "run-s build:*"
-    },
+        "build": "cross-env ELEVENTY_ENV=production eleventy",
+        "start": "cross-env ELEVENTY_ENV=development eleventy --serve",
+        "dev": "npm-run-all --parallel start watch:styles" 
+       },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/rmill2016/bodas-construction.git"
